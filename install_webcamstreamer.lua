@@ -16,7 +16,7 @@ end
 
 
 function install_dependencies()
-    os.execute('apt install -y build-essential debhelper libv4l-dev libjpeg8-dev libssl-dev git')
+    os.execute('apt install -y build-essential debhelper libv4l-dev libjpeg9-dev libssl-dev git')
 end
 
 
